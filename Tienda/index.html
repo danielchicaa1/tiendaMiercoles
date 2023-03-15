@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/estilosHome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header> <!--Menu de Bootsrap-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark animate__animated animate__jello">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">Chucho´s Pet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#">Cuido</a></li>
+                                <li><a class="dropdown-item" href="#">Snacks</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Arena para gatos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>  <!--Fin Menu de Bootsrap-->
+
+    <main>
+        <section> <!--Slider con imagenes-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/Shih-Tzu.webp?alt=media&token=26eacf78-15b3-42c7-a53a-f9b72b563fb1" class="d-block w-100" alt="..." width="1000" height="400">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/Slid3.webp?alt=media&token=26e91d21-df3a-468e-8d02-729561204d67" class="d-block w-100" alt="..." width="1000" height="400">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/Slide3.webp?alt=media&token=5d0c7ae2-775f-4ef0-9765-24f95bcfb4fa" class="d-block w-100" alt="..." width="1000" height="400">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section> <!-- Fin Slider con imagenes-->
+
+
+        <section> <!--Tarjeta con imagenes-->
+            <div class="mx-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/Card_1.png?alt=media&token=66359266-828d-4d77-b147-3d55fa5641cb" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Perros</h5>
+                        <p class="card-text">Alimentos , farmacia , accesorios.</p>
+                        <a href="#" class="w-10 btn btn-primary d-block mx-auto">Perros</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/Card_2.png?alt=media&token=5cbc37d0-d5f8-41a6-a7f7-66de86061e6f" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gatos </h5>
+                        <p class="card-text">Alimentos , medicamentos , accesorios.</p>
+                        <a href="#" class="w-10 btn btn-primary d-block mx-auto">Gatos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/servicios.png?alt=media&token=7de4b713-89cf-43a6-b5ca-1abb50e33d87" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Servicios </h5>
+                        <p class="card-text">Guarderia , baño , Citas veterinaria.</p>
+                        <a href="#" class="w-10 btn btn-primary d-block mx-auto">Servicios</a>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fin tarjeta con imagenes-->
+
+        <div class="banner">
+        </div>
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-6 align-self-center">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/imagenIndex.webp?alt=media&token=2a1f7da8-8fc8-4e46-8b4c-64878313d9c2" alt="foto1" srcset="" class="fluid w-100">
+                    </div>
+                    <div class="col-4 justify-content-center align-self-center">
+                        <h1 class="text-center">Bienvenido</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit similique saepe distinctio rerum aliquam sequi enim! Repellat, iure sed voluptate dolores temporibus consectetur, facere veritatis nihil, deleniti reiciendis voluptas repudiandae?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi voluptates aliquid                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-3" id="fila">
+
+                </div>
+            </div>
+        </section>
+        
+    
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="./src/controllers/controladorHome.js" type="module"></script>
+</body>
+
+<footer>  <!--Inicio de Footer-->
+
+    <div class="container-fluid">
+        <div class="row p-5 pb-2 bg-dark text white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Codigo AV</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3 text-white">Links</p>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Link01</a>
+                </div>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Link2</a>
+                </div>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Link3</a>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3 text-white">Enlaces Rapidos</p>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Terminos & Condiciones</a>
+                </div>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Politica de privacidad</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3 text-white">Redes Sociales</p>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Instagram</a>
+                </div>
+                <div class="mb-2">
+                    <a href="" class="text-secondary text-decoration-none">Facebook</a>
+                </div>
+            </div>
+            <div class="col-xs-12 pt-4">
+                <p class="text-white text-center">Copyright - Todos los derechos reservados </p>
+            </div>
+        </div>
+    </div>
+
+</footer> <!--Fin de Footer-->
+
+</html>
