@@ -18,7 +18,7 @@ let infoProducto = JSON.parse(localStorage.getItem("producto"))
 
 function ConvertirMoneda(tasa){
     let spanPrecio = document.getElementById("conversor")
-    let precioUSD =  infoProducto.precioOculto * tasa
+    let precioUSD =  infoProducto.precioOculto * tasa * cantidad.value
     console.log(precioUSD);
     spanPrecio.textContent = "$ " + precioUSD.toFixed(2)
 

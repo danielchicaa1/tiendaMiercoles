@@ -2,7 +2,7 @@
 
  export let productos = Array(
     {
-        nombre:"Producto 1",
+        nombre:"Natures Miracle",
         descripcion:" Quitamanchas y olores con repelente natural. - Ayuda a evitar que las mascotas vuelvan a visitar y marquen el mismo lugar dos veces. - Elimina de forma permanente las manchas y los olores.",
         fotos:["https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/atomizador2.webp?alt=media&token=b7ea9936-5e5b-45ab-a4db-50ecc5eee1fe","https://firebasestorage.googleapis.com/v0/b/daniel-chica-tienda.appspot.com/o/atomizador.webp?alt=media&token=d42dae4f-e001-432b-8b7e-ba6fdc1acd1d"],
         precio:100000,

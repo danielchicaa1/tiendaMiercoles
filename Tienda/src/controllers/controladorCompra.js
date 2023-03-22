@@ -17,6 +17,8 @@ precio.innerHTML=infoProducto.precio
 let descripcion=document.getElementById("descripcion")
 descripcion.textContent=infoProducto.descripcion
 
+
+
 let infocarrito=JSON.parse(localStorage.getItem("carrito"))
 let carrito
 let pildora=document.getElementById("pildora")
@@ -37,6 +39,8 @@ botonAgregarProducto.addEventListener("click",function(){
     
 })
 
+
+
 // convertiendo las monedas
 let botonConvertir = document.getElementById("conversor")
 botonConvertir.addEventListener("click", async () => await EjecutarApiTasa())
@@ -49,6 +53,26 @@ cantidad.addEventListener("keydown", (tecla) => {
         tecla.preventDefault()
     }
 })
+
+//Subtotal
+ let Subtotal = document.getElementById("SpanSubtotal")
+ cantidad.addEventListener("input", function (){
+    let CalcularSubtotal= cantidad.value * infoProducto.precioOculto
+    Subtotal.textContent=CalcularSubtotal
+    
+ })
+
+ let botonEliminarProducto=document.getElementById("btnLimpiarcarrito")
+  botonEliminarProducto.addEventListener("click",function(){
+    carrito.splice(infoProducto)
+    pildora.textContent =carrito.length 
+    localStorage.setItem("carrito",JSON.stringify(carrito))
+  })
+ 
+ 
+ 
+
+
 
 
 
